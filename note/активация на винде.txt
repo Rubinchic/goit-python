@@ -1,1 +1,6 @@
 venv\Scripts\activate.bat
+set FLASK_APP=microblog.py
+flask run
+>>> from app import db
+>>> from app.models import User, Post
+export FLASK_DEBUG=1
